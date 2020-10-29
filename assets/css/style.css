@@ -1,3 +1,54 @@
+/* Utility classes  */
 body {
   font-family: 'Open Sans', sans-serif;
 }
+/* /Utility classes  */
+
+/* header site */
+/* navbar site */
+.navbar-brand img {
+  max-height: 2.5rem;
+}
+
+.navbar-default {
+  background: white;
+  box-shadow: rgba(3,27,78,0.1) 0px 2px 4px;
+}
+.navbar-default .navbar-nav> li> a {
+  font-weight: 600;
+  color: #142A59;
+  font-size: 14px;
+  padding: 20px 12px;
+}
+
+.navbar-default .navbar-nav> li> a:hover {
+  color: #0061FE;
+}
+
+.btn-default {
+  padding-bottom: 3px;
+  font-weight: 600;
+  font-size: 14px;
+  margin: 14px 12px;
+}
+
+.btn-default:first-child {
+  background-color: white;
+  color: #0061FE;
+  border: 1px solid #0061FE;
+}
+
+.btn-default:first-child:hover {
+  background-color: #0061FE;
+  color: white;
+}
+
+.btn-default:last-child {
+  background-color: #0061FE;
+  color: white;
+  border: 1px solid #0061FE;
+}
+
+/* /navbar site */
+
+/* /header site */
