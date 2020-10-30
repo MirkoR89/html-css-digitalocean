@@ -161,6 +161,38 @@ margin-top: 5px;
   color: #0061FE;
   font-weight: 700;
 }
-
-
 /* section icon brands */
+/* section services */
+.services_container {
+  border: 1px solid lightgrey;
+  margin: 100px 50px;;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: rgba(3,27,78,0.1) 0px 2px 4px;
+}
+
+.services_container img {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.services_container h3 {
+  color: #142A59;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.services_container p {
+  color: #6A7786;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+.services_container button {
+  width: 100%;
+  padding: 10px 5px;
+  margin-top: 30px;
+
+}
+
+/* /section services */
