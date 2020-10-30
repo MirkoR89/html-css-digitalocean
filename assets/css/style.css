@@ -2,12 +2,28 @@
 body {
   font-family: 'Open Sans', sans-serif;
 }
+
+.btn_blue_bg {
+  background-color: #0061FE;
+  color: white;
+  border: 1px solid #0061FE;
+}
+
+.btn_blue_border {
+  background-color: white;
+  color: #0061FE;
+  border: 1px solid #0061FE;
+}
 /* /Utility classes  */
 
 /* header site */
 /* navbar site */
 .navbar-brand img {
   max-height: 2.5rem;
+}
+
+.navbar {
+  margin-bottom: 0;
 }
 
 .navbar-default {
@@ -32,23 +48,77 @@ body {
   margin: 14px 12px;
 }
 
-.btn-default:first-child {
-  background-color: white;
-  color: #0061FE;
-  border: 1px solid #0061FE;
-}
-
-.btn-default:first-child:hover {
+.btn-default:first-child:hover,
+.btn-default:last-child:hover {
   background-color: #0061FE;
   color: white;
 }
-
-.btn-default:last-child {
-  background-color: #0061FE;
-  color: white;
-  border: 1px solid #0061FE;
-}
-
 /* /navbar site */
 
+/* hero site */
+/* jumbotron site */
+.hero {
+  background-image:url("../img/bg_jumbotron.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.text_hero {
+  color: white;
+  margin: 150px 0;
+}
+
+.text_hero h1 {
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 120%
+}
+
+.text_hero p {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 150%
+}
+/* jumbotron site */
+
+/* form sing up */
+.sing_up {
+  background-color: white;
+  height: 400px;
+  width: 320px;
+  margin: 150px 50px;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+.title_sing_up {
+  color: #142A59;
+  background-color: #F4F5F9;
+  background-size: cover;
+  margin-bottom: 15px;
+  padding: 5px;
+  font-weight: 700;
+}
+
+.sing_up hr {
+  padding: : none;
+
+}
+
+.email_button {
+  padding: 15px 30px;
+  border-radius: 3px;
+}
+
+.google_button {
+  padding: 8px 10px 5px 10px;
+  margin: 10px;
+}
+
+.git_button {
+  margin: 10px;
+
+}
+/* form sing up */
+/* /hero site */
 /* /header site */
