@@ -14,6 +14,24 @@ body {
   color: #0061FE;
   border: 1px solid #0061FE;
 }
+
+h2 {
+  color: #142A59;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+h3 {
+  color: #142A59;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+p {
+  font-size: 14px;
+  color: #6A7786;
+  font-weight: 400;
+}
 /* /Utility classes  */
 
 /* header site */
@@ -77,6 +95,7 @@ body {
 }
 
 .text_hero p {
+  color: white;
   font-weight: 300;
   font-size: 24px;
   line-height: 150%
@@ -122,7 +141,7 @@ body {
 .email_button:hover {
   background-color: #034DB6!important;
   color: white!important;
-  border: 1px solid #0061FE!important;
+  border: 1px solid #034DB6!important;
 }
 
 .google_button,
@@ -183,12 +202,7 @@ margin-top: 5px;
   margin-top: 10px;
 }
 
-.badge_palnning h3,
-.title_services h2 {
-  color: #142A59;
-  font-weight: 700;
-  font-size: 28px;
-}
+
 
 .badge_palnning p {
   color: #6A7786;
@@ -225,8 +239,6 @@ margin-top: 5px;
 }
 
 .title_services p {
-  color: #6A7786;
-  font-weight: 500;
   font-size: 18px;
   line-height: 25px;
   padding: 0 220px;
@@ -239,16 +251,18 @@ margin-top: 5px;
 .card_srvices {
   margin-bottom: 25px;
 }
-
-.card_srvices h4 {
-  color: #142A59;
-  font-weight: 700;
-  font-size: 22px;
-}
-
-.card_srvices p {
-  color: #6A7786;
-  font-weight: 600;
-  font-size: 14px;
-}
 /* /section services */
+
+.built_business h2 {
+  margin: 50px 0;
+}
+
+.built_business a {
+  text-decoration: none;
+  color: #0061FE;
+
+}
+
+.built_business a:hover {
+  color: #034DB6;
+}
