@@ -61,10 +61,13 @@ body {
   background-image:url("../img/bg_jumbotron.svg");
   background-size: cover;
   background-repeat: no-repeat;
+  height: 500px;
 }
 
 .text_hero {
   color: white;
+  margin: 50px 0;
+
 }
 
 .text_hero h1 {
@@ -81,6 +84,10 @@ body {
 /* jumbotron site */
 
 /* form sing up */
+
+.sing_up {
+  margin: 50px 0;
+}
 
 .singup_card {
   background-color: white;
@@ -163,7 +170,7 @@ margin-top: 5px;
 }
 /* section icon brands */
 /* section services */
-.services_container {
+.badge_palnning {
   border: 1px solid lightgrey;
   margin: 100px 50px;;
   padding: 30px;
@@ -171,28 +178,77 @@ margin-top: 5px;
   box-shadow: rgba(3,27,78,0.1) 0px 2px 4px;
 }
 
-.services_container img {
+.badge_palnning img {
   width: 100%;
   margin-top: 10px;
 }
 
-.services_container h3 {
+.badge_palnning h3,
+.title_services h2 {
   color: #142A59;
   font-weight: 700;
   font-size: 28px;
 }
 
-.services_container p {
+.badge_palnning p {
   color: #6A7786;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
 }
-.services_container button {
+.badge_palnning button {
   width: 100%;
   padding: 10px 5px;
   margin-top: 30px;
-
 }
 
+.list-group .list-group-item {
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+  border-radius: 0;
+  margin-left: 150px;
+}
+
+.nav_left ul > li > a {
+  color: #6A7786;
+  font-weight: 600;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.nav_left ul > li > a:hover {
+  color: #142A59;
+}
+.list-group .list-group-item:hover {
+  border-left: 2px solid #0061FE;
+}
+
+.title_services p {
+  color: #6A7786;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  padding: 0 220px;
+}
+
+.title_services {
+  margin-bottom: 50px;
+}
+
+.card_srvices {
+  margin-bottom: 25px;
+}
+
+.card_srvices h4 {
+  color: #142A59;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.card_srvices p {
+  color: #6A7786;
+  font-weight: 600;
+  font-size: 14px;
+}
 /* /section services */
