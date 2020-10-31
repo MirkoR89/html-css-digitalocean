@@ -253,17 +253,21 @@ margin-top: 5px;
 }
 /* /section services */
 
-/* designed dev */
-.designed_dev {
+/* section designed dev //
+  section dev teams*/
+.designed_dev,
+.dev_teams {
   background-color: #F4F5F9;
   background-size: cover;
 }
 
-.designed_dev_title h2 {
+.designed_dev_title h2,
+.dev_teams_title h2 {
   margin-top: 70px;
 }
 
-.designed_dev_title p {
+.designed_dev_title p,
+.dev_teams_title p  {
   margin-bottom: 50px;
 }
 
@@ -279,18 +283,23 @@ margin-top: 5px;
   bottom: 50%;
   right: 50%;
   transform: translate(-50%, -50%);
-
 }
 
-.img_carosello img {
+.designed_dev_img img {
   height: 25em;
 }
 
-.designed_dev_bottom p {
+.dev_teams_img img {
+  height: 16em;
+}
+
+.designed_dev_bottom p,
+.dev_teams_bottom p {
   margin: 30px 0;
 }
 
-.designed_dev_bottom .dots {
+.designed_dev_bottom .dots,
+.dev_teams_bottom .dots {
   margin-bottom: 70px;
 }
 
@@ -300,9 +309,10 @@ margin-top: 5px;
   padding: 5px;
   margin-bottom:
 }
-/* /designed dev */
+/* /section designed dev //
+  section dev teams*/
 
-/* built business */
+/* section built business */
 .built_business h2 {
   margin: 50px 0;
 }
@@ -315,5 +325,7 @@ margin-top: 5px;
 .built_business a:hover {
   color: #034DB6;
 }
-/* /built business */
+/* /section built business */
+
+
 /* /main site */
