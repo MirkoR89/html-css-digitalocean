@@ -326,6 +326,20 @@ margin-top: 5px;
   color: #034DB6;
 }
 /* /section built business */
+/* section get started  */
+.get_started {
+  height: 150px;
+  background-image:url("../img/bg_jumbotron.svg");
+}
 
+.get_started h2 {
+  color: white;
+  margin-top: 60px;
+}
 
+.get_started button {
+  padding: 15px 15px;
+  margin-top: 50px;
+}
+/* /section get started  */
 /* /main site */
