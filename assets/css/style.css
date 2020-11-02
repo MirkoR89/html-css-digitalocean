@@ -327,6 +327,10 @@ margin-top: 5px;
 .customers a:hover {
   color: #034DB6;
 }
+
+.business_content {
+  margin-bottom: 50px;
+}
 /* /section built business */
 
 /* section customers */
@@ -351,8 +355,12 @@ margin-top: 5px;
   padding: 0 30px;
 }
 
-table tr:first-child > td {
+.table tr:first-child > td {
   border-top: none;
+}
+
+.table td {
+  border-bottom: 1px solid  #6A7B9C;
 }
 
 .table tr td:first-child {
@@ -367,10 +375,15 @@ table tr:first-child > td {
   font-size: 11px;
 }
 
+.table tr td:last-child {
+  text-align: right
+}
+
 .table tr a {
   color: #02EDFE;
   font-weight: 400;
   font-size: 11px;
+
 }
 
 .table tr a:hover {
@@ -397,3 +410,48 @@ table tr:first-child > td {
 }
 /* /section get started  */
 /* /main site */
+
+/* footer site */
+footer {
+  background-color: #000E28;
+}
+
+footer h4 {
+  color: white;
+  font-weight: 400;
+  font-size: 11px;
+}
+
+footer li {
+  list-style: none;
+}
+
+footer a {
+  text-decoration: none;
+  color: #797D8D;
+  font-weight: 400;
+  font-size: 11px;
+}
+
+footer a:hover {
+  color: white;
+}
+
+.links {
+  margin: 50px 0;
+}
+
+footer img {
+  height: 35px;
+  margin: 0 20px;
+}
+
+footer span, i {
+  color: #797D8D;
+}
+
+footer i {
+  font-size: 20px;
+  margin: 10px 5px;
+}
+/* /footer site */
