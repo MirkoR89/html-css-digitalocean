@@ -44,7 +44,7 @@ p {
   margin-bottom: 0;
 }
 
-.navbar-default {
+.container-fluid {
   background: white;
   box-shadow: rgba(3,27,78,0.1) 0px 2px 4px;
 }
@@ -79,39 +79,39 @@ p {
   background-image:url("../img/bg_jumbotron.svg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 500px;
+  height: 600px;
 }
 
 .text_hero {
   color: white;
-  margin: 50px 0;
+  margin: 150px 0;
+  line-height: 30px;
 
 }
 
 .text_hero h1 {
   font-weight: 700;
-  font-size: 58px;
-  line-height: 120%;
+  font-size: 40px;
 }
 
 .text_hero p {
   color: white;
   font-weight: 300;
-  font-size: 24px;
-  line-height: 150%
+  font-size: 20px;
 }
 /* jumbotron site */
 
 /* form sing up */
 
 .sing_up {
-  margin: 50px 0;
+  margin: 100px 0;
 }
 
 .singup_card {
   background-color: white;
-  width: 50%;
+  width: 70%;
   border-radius: 4px;
+  position: relative;
 }
 
 .title_sing_up h4 {
@@ -162,6 +162,8 @@ color: white;
 font-size: 12px;
 font-weight: 100;
 margin-top: 5px;
+position: absolute;
+right:37%;
 }
 /* form sing up */
 /* /hero site */
@@ -452,6 +454,6 @@ footer span, i {
 
 footer i {
   font-size: 20px;
-  margin: 10px 5px;
+  margin: 10px 5;
 }
 /* /footer site */
